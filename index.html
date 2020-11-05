@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		body {
+			margin: 0;
+			background: #e5e5e5;
+		}
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		#tab {
+			width: 1230px;
+			margin: 100px auto 0 auto;
+		}
+
+		.nav {
+			width: 200px;
+			height: 320px;
+			background: rgba(0, 0, 0, .5);
+			float: left;
+		}
+
+		.nav li {
+			height: 32px;
+			line-height: 32px;
+			color: #fff;
+			font-size: 14px;
+			padding-left: 20px;
+		}
+
+		.nav li a {
+			color: #fff;
+		}
+
+		.nav li.active {
+			background: #fff;
+		}
+
+		.nav li.active a {
+			color: #e54077;
+			font-weight: bold;
+		}
+
+		.content {
+			width: 1030px;
+			float: left;
+			background: #fff;
+		}
+
+		.content .item {
+			height: 320px;
+			padding: 20px;
+			box-sizing: border-box;
+
+			display: none;
+		}
+
+		.content .item.active {
+			display: block;
+		}
+
+		.content .title {
+			float: left;
+			width: 100px;
+			font-weight: bold;
+			color: #000;
+		}
+
+		.content .list {
+			float: right;
+			width: 870px;
+		}
+
+		.content .list a {
+			color: #666;
+			display: inline-block;
+			margin: 0 20px 10px 0;
+		}
+
+		.content .list a.highlight {
+			color: #e54077;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- 
+		陈学辉
+	 -->
+
+	<div id="tab">
+		<ul class="nav">
+			<li><a href="#">1生鲜水果</a></li>
+			<li><a href="#">2美妆</a> / <a href="#">个人护理</a></li>
+			<li><a href="#">3腕表</a> / <a href="#">眼镜</a> / <a href="#">珠宝饰品</a></li>
+			<li><a href="#">4生鲜水果</a></li>
+			<li><a href="#">5美妆</a> / <a href="#">个人护理</a></li>
+			<li><a href="#">6腕表</a> / <a href="#">眼镜</a> / <a href="#">珠宝饰品</a></li>
+			<li><a href="#">7生鲜水果</a></li>
+			<li><a href="#">8美妆</a> / <a href="#">个人护理</a></li>
+			<li><a href="#">9腕表</a> / <a href="#">眼镜</a> / <a href="#">珠宝饰品</a></li>
+			<li><a href="#">10腕表</a> / <a href="#">眼镜</a> / <a href="#">珠宝饰品</a></li>
+		</ul>
+
+		<div class="content">
+			<div class="item">
+				<div class="title">1黄金首饰 ></div>
+				<div class="list">
+					<a href="#" class="highlight">进口啤酒</a><a href="#" class="highlight">进口啤酒</a><a href="#"
+						class="highlight">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="title">2黄金首饰 ></div>
+				<div class="list">
+					<a href="#" class="highlight">进口啤酒</a><a href="#" class="highlight">进口啤酒</a><a href="#"
+						class="highlight">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="title">3黄金首饰 ></div>
+				<div class="list">
+					<a href="#" class="highlight">进口啤酒</a><a href="#" class="highlight">进口啤酒</a><a href="#"
+						class="highlight">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="title">4黄金首饰 ></div>
+				<div class="list">
+					<a href="#" class="highlight">进口啤酒</a><a href="#" class="highlight">进口啤酒</a><a href="#"
+						class="highlight">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="title">5黄金首饰 ></div>
+				<div class="list">
+					<a href="#" class="highlight">进口啤酒</a><a href="#" class="highlight">进口啤酒</a><a href="#"
+						class="highlight">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="title">6黄金首饰 ></div>
+				<div class="list">
+					<a href="#" class="highlight">进口啤酒</a><a href="#" class="highlight">进口啤酒</a><a href="#"
+						class="highlight">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="title">7黄金首饰 ></div>
+				<div class="list">
+					<a href="#" class="highlight">进口啤酒</a><a href="#" class="highlight">进口啤酒</a><a href="#"
+						class="highlight">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="title">8黄金首饰 ></div>
+				<div class="list">
+					<a href="#" class="highlight">进口啤酒</a><a href="#" class="highlight">进口啤酒</a><a href="#"
+						class="highlight">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="title">9黄金首饰 ></div>
+				<div class="list">
+					<a href="#" class="highlight">进口啤酒</a><a href="#" class="highlight">进口啤酒</a><a href="#"
+						class="highlight">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a>
+				</div>
+			</div>
+			<div class="item">
+				<div class="title">10黄金首饰 ></div>
+				<div class="list">
+					<a href="#" class="highlight">进口啤酒</a><a href="#" class="highlight">进口啤酒</a><a href="#"
+						class="highlight">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a><a
+						href="#">进口啤酒</a><a href="#">进口啤酒</a><a href="#">进口啤酒</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		var lis = document.querySelectorAll('li');
+		var items = document.querySelectorAll('.item');
+
+		/* for(var i=0;i<lis.length;i++){
+			lis[i].index=items[i].index=i;	//给每一个li标签身上添加一个自定义属性，这个值为索引值 
+			lis[i].onmouseover=function(){	//这个循环是为了添加事件
+				//先把所有标签身上的class去掉（不管它身上有没有）
+				for(var i=0;i<lis.length;i++){	//这个循环是为了把所有li标签身上的class去掉
+					lis[i].className='';
+					items[i].classList.remove('active');
+				}
+
+				//再让自己的身上添加上class
+				this.className='active';
+				items[this.index].classList.add('active');
+			};
+
+			lis[i].onmouseout=items[i].onmouseout=function(){
+				for(var i=0;i<lis.length;i++){
+					lis[i].className='';
+					items[i].classList.remove('active');
+				}
+			};
+
+			items[i].onmouseover=function(){
+				this.classList.add('active');
+				lis[this.index].className='active';
+			};
+		} */
+
+		var ln=0;	//上一次选中的li对应的索引
+
+		for(var i=0;i<lis.length;i++){
+			lis[i].index=items[i].index=i;
+			lis[i].onmouseover=function(){
+				lis[ln].className='';
+				items[ln].classList.remove('active');
+
+
+				//再让自己的身上添加上class
+				this.className='active';
+				items[this.index].classList.add('active');
+
+				ln=this.index;	//把ln的值赋成当前次的索引
+			};
+
+			lis[i].onmouseout=items[i].onmouseout=function(){
+				lis[ln].className='';
+				items[ln].classList.remove('active');
+			};
+
+			items[i].onmouseover=function(){
+				this.classList.add('active');
+				lis[this.index].className='active';
+			};
+		}
+
+	</script>
+</body>
+<html>
